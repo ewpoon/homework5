@@ -240,7 +240,7 @@ header{
   }
 
   .gallery {
-    display: none;
+    display: hidden;
   }
    
   /*Your code here again.*/
