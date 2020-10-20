@@ -54,8 +54,8 @@ footer{
 /*Keyframes for animation*/
 
 @-webkit-keyframes logo_wiggle{
-  from {width: 25px}
-  to {width: 420px}
+  /* from {width: 25px}
+  to {width: 420px} */
 
   /* -webkit-animation-name: logo_wiggle;
   -webkit-animation-duration: 15s; */
@@ -64,16 +64,16 @@ footer{
 }
 
 @keyframes logo_wiggle{
-  from {width: 25px}
-  to {width: 420px}
+  /* from {width: 25px}
+  to {width: 420px} */
 
   /*Your code here.*/
 
 } 
 
 #logo{
-  animation-name: logo_wiggle;
-  animation-duration: 15s;
+  /* animation-name: logo_wiggle;
+  animation-duration: 15s; */
   /* text-align: center; */
    /*Your code here.*/
  
