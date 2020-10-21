@@ -54,8 +54,8 @@ footer{
 /*Keyframes for animation*/
 
 @-webkit-keyframes logo_wiggle{
-  /* from {width: 25px}
-  to {width: 420px} */
+  from {width: 25px}
+  to {width: 420px}
 
   /* -webkit-animation-name: logo_wiggle;
   -webkit-animation-duration: 15s; */
@@ -64,16 +64,16 @@ footer{
 }
 
 @keyframes logo_wiggle{
-  /* from {width: 25px}
-  to {width: 420px} */
+  from {width: 25px}
+  to {width: 420px}
 
   /*Your code here.*/
 
 } 
 
 #logo{
-  /* animation-name: logo_wiggle;
-  animation-duration: 15s; */
+  animation-name: logo_wiggle;
+  animation-duration: 15s;
   /* text-align: center; */
    /*Your code here.*/
  
@@ -238,11 +238,21 @@ header{
   .pricing{
     align-items: flex-start;
   }
+  /* none not hidden */
+  /* this is for the actual gallery */
+  .gallery { 
+    display: none;
+  }
 
-  .gallery {
-    display: hidden;
+  /* this is for the title klfdsfklsdh*/
+  #gallery {
+    display: none;
   }
    
+  body {
+    /* display:hidden; */
+    background-image: none;
+  }
   /*Your code here again.*/
   /*You will want four selectors*/  
 }
@@ -251,6 +261,7 @@ header{
 /*Add media query to handle reduced-motion*/
 @media (prefers-reduced-motion) {
   #logo {
-    animation-name: logo_wiggle;
+    animation-name: none;
+    /* animation-name: logo_wiggle; */
   }
 }
